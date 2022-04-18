@@ -63,11 +63,11 @@ const postMiddleware = (req, res, next) => {
 };
 app.post("/libraries", postMiddleware, (req, res) => {
   console.log(req.body);
-  res.status(200).json({ message: "Post Method" });
+  res.status(200).json({ message: "Post Method from Libraries" });
 });
 app.post("/authors", postMiddleware, (req, res) => {
-  console.log(res);
-  res.status(200).json({ message: "Post Method" });
+  console.log(req.body);
+  res.status(200).json({ message: "Post Method from Authors" });
 });
 
 const port = 3000;

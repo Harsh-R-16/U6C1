@@ -105,13 +105,18 @@ module.exports = {
       location: "Bangalore",
     },
     {
-      name: "Masai",
+      name: "Masai Club",
       location: "Bangalore",
     },
     {
-      name: "School",
+      name: "H & D School",
       location: "Bangalore",
     },
   ],
-  authors: [{ name: "Harsh" }, { name: "Ronak" }],
+  authors: [
+    { name: "Harsh", age: 22 },
+    { name: "Ronak", age: 30 },
+    { name: "Rohit", age: 35 },
+    { name: "Virat", age: 33 },
+  ],
 };
