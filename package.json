@@ -1,0 +1,23 @@
+{
+  "name": "u6c1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh-R-16/U6C1.git"
+  },
+  "author": "Harsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsh-R-16/U6C1/issues"
+  },
+  "homepage": "https://github.com/Harsh-R-16/U6C1#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
