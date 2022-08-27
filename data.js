@@ -101,11 +101,11 @@ module.exports = {
   ],
   libraries: [
     {
-      name: "Masai School",
+      name: "A One School",
       location: "Bangalore",
     },
     {
-      name: "Masai Club",
+      name: "Sight Club",
       location: "Bangalore",
     },
     {
